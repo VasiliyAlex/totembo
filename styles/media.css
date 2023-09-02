@@ -57,4 +57,31 @@
     .footer__box-list2 {
         justify-content:center;
     }
+}  
+@media(max-width:360px) {
+    .section2__box-cards,
+    .section1__box-cards  {
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    }
+   
+    .section2__box-cards-card{
+        padding: 30% 22% 10% 10%;
+    }
+    
+    .discounts::before,
+    .header__discounts::before,
+    .header__discounts2::before,
+    .header__discounts3::before,
+    .advice::before{
+        left: 10px;
+        top: 10px;
+    }
+    
+    .section1__card-icon {
+        right: 10px;
+        top: 10px;
+    }
 }
+    
+
+
